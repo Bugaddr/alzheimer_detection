@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 # --- 1. Load the Saved Model ---
 # Make sure the model file is in the same directory as this script,
 # or provide the full path to it.
-model = tf.keras.models.load_model('alzheimers_cnn_model.h5')
+model = tf.keras.models.load_model('alzheimers_cnn_model.keras')
 
 # --- 2. Define the Class Labels ---
 # These must be in the same order the model was trained on.

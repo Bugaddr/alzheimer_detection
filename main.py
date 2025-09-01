@@ -89,6 +89,6 @@ history = model.fit(
 
 # --- 6. Save the Model ---
 # Save the trained model to a file for later use.
-model.save('alzheimers_cnn_model.h5')
+model.save('alzheimers_cnn_model.keras')
 
-print("Model training complete and saved as alzheimers_cnn_model.h5")
+print("Model training complete and saved as alzheimers_cnn_model.keras")
